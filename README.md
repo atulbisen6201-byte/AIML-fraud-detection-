@@ -1,36 +1,35 @@
 # 🚨 Financial Fraud Detection System (Machine Learning + FastAPI + Streamlit)
 
-A Machine Learning based Fraud Detection System that identifies suspicious transactions in real-time.  
-This project includes a trained ML model, REST API, interactive dashboard, authentication, and database logging for end-to-end fraud analysis.
+A **Machine Learning-based Fraud Detection System** that identifies suspicious bank transactions in real-time.  
+This project integrates an ML model, secure REST API, Streamlit dashboard, authentication, and MySQL database logging.
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-- ✅ Detect fraudulent transactions using ML models (Logistic Regression / Random Forest / XGBoost)
-- ⚡ Real-time Fraud Prediction API using FastAPI
-- 📊 Streamlit Dashboard for visualization & monitoring
-- 🔐 JWT Authentication for secured API access
-- 🗄️ MySQL database to store transactions & fraud logs
-- 📈 Model Evaluation, Explainability (SHAP) & Performance Metrics
-- 🐳 Dockerized App for easy deployment
-- ☁️ Optional Cloud Deployment Support (Google Cloud Run)
+✅ Fraud detection using ML models (Logistic Regression / Random Forest / XGBoost)  
+⚡ Real-time prediction API using FastAPI  
+📊 Streamlit Dashboard for monitoring & visualization  
+🔐 JWT-based authentication for secure API access  
+🗄️ MySQL database to store transactions & fraud logs  
+📈 Model evaluation & explainability with SHAP  
+🐳 Docker support for deployment  
 
 ---
 
 ## 🧠 Tech Stack
 
-| Layer                           | Technology                                                                                   |
-| ------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Programming Language**        | Python                                                                                       |
-| **ML & Data Science**           | Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Imbalanced-Learn                           |
-| **Backend (API)**               | FastAPI                                                                                      |
-| **Frontend (Dashboard)**        | Streamlit                                                                                    |
-| **Database**                    | MySQL                                                                                        |
-| **Authentication**              | JWT Tokens / API Key                                                                         |
-| **Containerization**            | Docker                                                                                       |
-| **Cloud Deployment**            | Google Cloud Run + Artifact Registry                                                         |
-| **Optional Cloud Services**     | Pub/Sub, BigQuery, Cloud Storage                                                             |
-| **Monitoring & Logs**           | Prometheus + Grafana / Google Cloud Monitoring                                               |
+| Layer | Technology|
+|-------|-------------|
+| Programming Language | Python |
+| ML & Data Science | Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Imbalanced-Learn |
+| Backend (API) | FastAPI |
+| Frontend (Dashboard) | Streamlit |
+| Database | MySQL |
+| Authentication | JWT |
+| Containerization | Docker |
 
 ---
+
+
+
